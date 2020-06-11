@@ -258,6 +258,7 @@ router.get('/listmeetings', function(req, res) {
 
             } else {
                         console.log("Codigo de acceso no existe");
+						res.redirect('/');
             }
 
 
@@ -322,6 +323,7 @@ router.get('/myinfo', function(req, res) {
 
             } else {
                         console.log("Codigo de acceso no existe");
+						res.redirect('/');
             }
 
 
@@ -404,6 +406,8 @@ router.get('/createMeetingV2', function(req, res) {
 
             } else {
                         console.log("Codigo de acceso no existe");
+						res.redirect('/');
+
             }
 
 
@@ -468,6 +472,8 @@ router.get('/createUserV2', function(req, res) {
 
             } else {
                         console.log("Codigo de acceso no existe");
+						res.redirect('/');
+
             }
 
 
